@@ -25,6 +25,10 @@
     quick_tap_ms = <120>;
 };
 
+&led_strip {
+    chain-length = <21>;
+};
+
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
